@@ -1,0 +1,33 @@
+{
+  "name": "create-modules-tools",
+  "version": "1.0.0",
+  "description": "读取远程仓库模板，快速创建代码模块的脚手架工具",
+  "keywords": [
+    "创建模块",
+    "create modules"
+  ],
+  "type": "module",
+  "bin": {
+    "create-module": "bin/index.js"
+  },
+  "author": {
+    "name": "nn",
+    "email": "ning_1603@163.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "execa": "^6.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "questions",
+    "templates",
+    "utils",
+    "package.json",
+    "README.md"
+  ]
+}
